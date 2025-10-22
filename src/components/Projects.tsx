@@ -10,14 +10,34 @@ export default function Projects() {
         status: "Live",
       },
       {
-        title: "Chess Engine",
+        title: "Python Chess Engine",
         description:
           "Python-based chess engine achieving 1700+ ELO rating. Implements minimax algorithm with alpha-beta pruning, move ordering, and position evaluation.",
         technologies: ["Python", "Pygame", "AI Algorithms"],
         github: "https://github.com/Joshua-Onley/PythonChessEngine",
         status: "Completed",
-        grade: "79/100 (Distinction)",
+        grade: "Grade: 79/100 (Distinction)",
+        
       },
+
+      {
+        title: "SIR Epidemic Simulation",
+        description: "Collection of stochastic SIR models simulating disease spread across different network structures, vaccination interventions, and spatial populations. Developed as part of Game Theory coursework.",
+        
+        technologies: ["Python", "Matplotlib"],
+        github: "https://github.com/Joshua-Onley/sir-epidemic-simulations",
+        status: "Completed",
+        grade: "Grade: 85/100"
+      },
+
+      {
+        title: "N-Body Simulations: Parallel vs Serial Implementations",
+        description: "Parallel N-body simulation comparing serial vs OpenMP vs MPI performance in gravitational system modeling. Developed as part of High Performance Computing coursework",
+        technologies: ["C++", "OpenMP", "MPI"],
+        github: "https://github.com/Joshua-Onley/nbody-parallel-simulations",
+        status: "Completed",
+        grade: "Grade: 76/100"
+      }
       
     ]
   
@@ -61,7 +81,7 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 text-sm text-accent hover:underline"
                     >
-                      View project
+                      Visit Live Website
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path
                           strokeLinecap="round"
