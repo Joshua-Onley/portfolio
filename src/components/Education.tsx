@@ -4,7 +4,7 @@ export default function Education() {
         degree: "MSc Advanced Computer Science",
         institution: "University of Birmingham",
         period: "2024-2025",
-        classification: "Distinction (predicted)",
+        classification: "Distinction (obtained)",
         modules: [
           "Designing and Managing Secure Systems",
           "Algorithms and Complexity",

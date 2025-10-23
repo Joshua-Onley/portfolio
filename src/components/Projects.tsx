@@ -1,16 +1,17 @@
 export default function Projects() {
     const projects = [
       {
-        title: "Adventure Code",
+        title: "Adventure Code (MSc Advanced Computer Science thesis)",
         description:
           "A full-stack educational platform for programming with 30+ users. Features interactive coding challenges, progress tracking, and real-time feedback.",
         technologies: ["FastAPI", "TypeScript", "React", "PostgreSQL", "ReactFlow", "Azure", "Docker"],
         link: "https://adventurecode.tech",
         github: "https://github.com/Joshua-Onley/AdventureCode",
         status: "Live",
+        grade: "Grade: 80/100 (Distinction)"
       },
       {
-        title: "Python Chess Engine",
+        title: "Python Chess Engine (MSc Computer Science thesis)",
         description:
           "Python-based chess engine achieving 1700+ ELO rating. Implements minimax algorithm with alpha-beta pruning, move ordering, and position evaluation.",
         technologies: ["Python", "Pygame", "AI Algorithms"],
