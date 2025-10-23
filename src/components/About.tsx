@@ -8,7 +8,7 @@ export default function About() {
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
                   I have recently completed my Master's degree in Advanced Computer Science from the University
-                  of Birmingham, where I am predicted a Distinction. My academic background has equipped me with strong
+                  of Birmingham, where I achieved a high Distinction (79%). My academic background has equipped me with strong
                   foundations in technology, software engineering, and full-stack web development.
                 </p>
                 <p>
