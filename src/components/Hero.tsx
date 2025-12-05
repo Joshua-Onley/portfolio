@@ -16,11 +16,11 @@ export default function Hero() {
   
             <div className="max-w-3xl">
               <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">Joshua Onley</h1>
-              <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">Computer Science Graduate | Full Stack Developer</p>
+              <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">Computer Science Graduate | Aspiring Technology Professional</p>
               <p className="text-lg text-muted-foreground mb-12 leading-relaxed max-w-2xl">
-                Building full-stack applications and solving complex problems with modern technologies. MSc Advanced
-                Computer Science graduate from the University of Birmingham with a passion for creating impactful software
-                solutions.
+                MSc Advanced
+                Computer Science graduate from the University of Birmingham with a passion for technology and problem solving
+                
               </p>
   
               <div className="flex flex-wrap gap-4">
