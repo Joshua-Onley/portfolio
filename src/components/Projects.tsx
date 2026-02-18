@@ -74,27 +74,7 @@ export default function Projects() {
                   ))}
                 </div>
   
-                <div className="flex items-center gap-3">
-                  {project.link && (
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-sm text-accent hover:underline"
-                    >
-                      Visit Live Website
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                        />
-                      </svg>
-                    </a>
-                  )}
-  
-                  {project.github && (
+                {project.github && (
                     <a
                       href={project.github}
                       target="_blank"
@@ -113,7 +93,6 @@ export default function Projects() {
                     </a>
                   )}
                 </div>
-              </div>
             ))}
           </div>
         </div>

@@ -16,7 +16,7 @@ export default function Hero() {
   
             <div className="max-w-3xl">
               <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">Joshua Onley</h1>
-              <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">Computer Science Graduate | Aspiring Technology Professional</p>
+              <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed"> Platform Engineer | Computer Science Graduate</p>
               <p className="text-lg text-muted-foreground mb-12 leading-relaxed max-w-2xl">
                 MSc Advanced
                 Computer Science graduate from the University of Birmingham with a passion for technology and problem solving

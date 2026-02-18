@@ -7,16 +7,16 @@ export default function About() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I have recently completed my Master's degree in Advanced Computer Science from the University
+                  I am currently a Platform Engineer at Sparta Global. Prior to starting as a Platform Engineer, I completed my Master's degree in Advanced Computer Science from the University
                   of Birmingham, where I achieved a high Distinction (79%). My academic background has equipped me with strong
-                  foundations in technology, software engineering, and full-stack web development.
+                  foundations in technology, system design, and software development.
                 </p>
                 <p>
-                  I'm passionate about building software that solves real-world problems. My most recent project 'Adventure Code' is a full-stack web-application
+                  I'm passionate about designing systems that solve real-world problems. My most recent project 'Adventure Code' is a full-stack web-application
                   that supports coding education. For more details scroll down to my Projects section.
                 </p>
                 <p>
-                  Beyond coding, I'm an endurance sports enthusiast who has completed a 100-mile charity bike ride, helping to raise over £600 for charity. I have been regularly playing
+                  Beyond tech, I'm an endurance sports enthusiast who has completed a 100-mile charity bike ride, helping to raise over £600 for charity. I have been regularly playing
                   team sports such as football and hockey from a young age and I frequently go to the gym for strength training. In addition to sports, I also enjoy playing strategy games such as chess.
                 </p>
               </div>
@@ -46,11 +46,9 @@ export default function About() {
                 <h3 className="font-semibold mb-4 text-card-foreground">Interests</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    "Full-Stack Development",
-                    "Python Programming",
-                    "FastAPI",
-                    "Algorithms",
-                    "Cloud Computing",
+		    "Data Structures and Algorithms", 
+		    "DevOps",
+                    "Cloud Engineering",
                     "Endurance Sports",
                     "Chess",
                     "Football",

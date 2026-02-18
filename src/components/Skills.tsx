@@ -14,7 +14,7 @@ export default function Skills() {
       },
       {
         category: "Cloud & DevOps",
-        skills: ["Azure", "Docker", "GitHub Actions", "CI/CD"],
+        skills: ["Azure", "Docker", "GitHub Actions", "CI/CD", "Jenkins", "Terraform", "Ansible", "Kubernetes" ],
       },
       {
         category: "Concepts",

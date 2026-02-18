@@ -16,8 +16,8 @@ export default function Education() {
         project: {
           title: "Adventure Code",
           description:
-            "Full-stack educational platform for programming with 30+ users. Built with FastAPI, TypeScript, React, PostgreSQL, ReactFlow, Azure, GitHub Actions, and Docker.",
-          link: "https://adventurecode.tech",
+            "Full-stack educational platform for programming with 30+ users. Built with FastAPI, TypeScript, React, PostgreSQL, ReactFlow, Azure, GitHub Actions, and Docker. Since completing this project, I have taken the website down. The website can easily be run locally with just a few commands.",
+          link: "https://github.com/Joshua-Onley/AdventureCode",
         },
       },
       {
@@ -37,6 +37,8 @@ export default function Education() {
           title: "Chess Engine",
           description:
             "Python-based chess engine achieving 1700+ ELO rating. Built with Python and Pygame. Awarded distinction (79/100).",
+	  link: "https://github.com/Joshua-Onley/PythonChessEngine"
+	  
         },
       },
       {
@@ -95,7 +97,7 @@ export default function Education() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1 mt-2 text-sm text-accent hover:underline"
                       >
-                        Visit live site
+                        View project
                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path
                             strokeLinecap="round"
